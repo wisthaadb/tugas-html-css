@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="livejs/live.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Sticky navbar -->
+    <div class="sticky">
+        <ul class="nav">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#workex">Work Experience</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#info">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+    </div>
+
+    <!-- Header -->
+    <div class="header" id="home">
+        <img src="https://www.academy.profoundleadership.com.au/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2017/09/Martin-Probst-Profile-picture-square-300x300.png.webp" alt="">
+        <h1>JOHN DOE PORTFOLIO</h1>
+        <h4>500 Terry Francois Street <br>San Fransico, CA 94158</h4>
+        <h4>E-mail: info@mysite.com</h4>
+        <h4>Phone: 123-456-7890</h4>
+    <!-- Awesome Icon -->
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-google"></a>
+        <a href="" class="fa fa-linkedin"></a>
+    </div>
+
+    <!-- Konten Utama -->
+    <table id="konten">
+        <tr>
+            <td>
+                <!-- Konten about -->
+                <article id="info">
+                    <h2>Professional Info</h2>
+                    <hr>
+                    <p>Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan kelebihanmu Perkenalkan dirimu dan kelebihanmu</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi magni ex natus ad dolorum. Hic, nesciunt non officia nam, ipsam, eligendi asperiores expedita voluptas minus praesentium odit esse ipsa animi!</p>
+                </article>
+
+                <!-- Konten work experience -->
+                <article id="workex">
+                    <h2>Work Experience</h2>
+                    <hr>
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah magang sebagai front-end di perusahaan X dengan jobdesk utama saya adalah melakukan pembuatan tampilan aplikasi serta melakukan design aplikasi agar tampilan utamanya menarik</p>
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah magang sebagai back-end di perusahaan Y dengan jobdesk utama saya adalah melakukan pembuatan back side aplikasi</p>
+                    <h3>Job Title</h3>
+                    <h4>Tahun</h4>
+                    <p>Saya pernah magang sebagai front-end perusahaan Z dengan jobdesk utama saya adalah melakukan pembuatan aplikasi serta melakukan design aplikasi agar tampilan utamanya menarik</p>
+                </article>
+
+                <!-- Konten education -->
+                <article id="edu">
+                    <h2>Education</h2>
+                    <hr>
+                    <h4>Universitas Gadjah Mada</h4>
+                    <h5>Bachelor's Degree, Information Engineering</h5>
+                    <h5>2016-2020</h5>
+                    <h4>Universitas Gadjah Mada</h4>
+                    <h5>Bachelor's Degree, Information Engineering</h5>
+                    <h5>2016-2020</h5>
+                    <h4>Universitas Gadjah Mada</h4>
+                    <h5>Bachelor's Degree, Information Engineering</h5>
+                    <h5>2016-2020</h5>  
+                </article>
+            </td>
+            <td class="sidebar">
+                <div class="sidebar"></div>
+                   <div id="language">
+                       <h2>Languages</h2>
+                       <hr>
+                       <p>English</p>
+                       <p>Indonesian Language</p>
+                       <p>Javanese</p>
+                    </div> 
+                    <div id="skills">
+                        <h2>Skills</h2>
+                        <hr>
+                        <p>Git</p>
+                        <p>Communication</p>
+                        <p>Teamwork</p>
+                        <p>Corel Draw</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!-- Kontener -->
+    <div class="container">
+        <h2>Give me some messages</h2>
+        <form action="/action_page.php">
+            <!-- first name -->
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your Name">
+                </div>
+            </div>
+            <!-- last name -->
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                </div>
+            </div>
+            <!-- country -->
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select name="country" id="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </div>
+            <!-- subject -->
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="subject" id="subject" placeholder="Write Something.."></textarea>
+                </div>
+            </div>
+            <!-- submit -->
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+    <!-- footer -->
+    <footer>
+        <p>Author:Hege Refsnes <br> <a href="mailto:hege@example.com">hege@example.com"</a></p>
+    </footer>
+    </div>
+</body>
+</html>
