@@ -144,8 +144,9 @@ h5 {
     font-weight: lighter;
 }
 
+/* sidebar pakai float agar lebih pas posisinya keatas */
 .sidebar {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     vertical-align: text-top;
     width: 200px;
@@ -220,3 +221,41 @@ footer{
     color: white;
 }
 
+/* GALLERY STYLE */
+#gallerykontener{
+    max-width: 100%;
+    width: 70%; 
+    margin: 0 auto;
+}
+
+#gallerykontener h2{
+    text-align: center;
+}
+.gallery {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #4CAF50;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    display: inline;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    width: 250px;
+    height: 220px;
+}
+
+.gallerykontener .gallery .desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
